@@ -1,0 +1,24 @@
+<!-- Bandeirinha -->
+<svg xmlns="http://www.w3.org/2000/svg" height="30" width="30" >
+    
+    <!-- Desenha bandeira movendo-á -->
+    <g transform="rotate(30,0,0) translate(10,0)">   
+
+        <!-- Monta a bandeira com shapes -->         
+        <rect x="0" y="0" width="20" height="14" fill="#26c583"/>
+        <polygon points="1.7,7.5 10,1.7 18.3,7.5 10,12.3" fill="#ffea00" />
+        <circle cx="10" cy="7" r="3.5" fill="#001eff" />    
+
+        <!-- Desenha as letras -->
+        <text x="10" y="7.5" font-size="1" stroke-width="0.1" font-family="Verdana" fill="#d000ff" text-anchor="middle">
+            <tspan>Vai Branzil</tspan>
+
+        <!-- Anima as letras -->
+        <animate attributeName="fill" attributeType="CSS" from="#26c583"  to="#ffea00" begin="0s" dur="0.1s" repeatCount="indefinite"/>
+        <animate attributeName="stroke" attributeType="CSS" from="#ffea00"  to="#26c583" begin="0.1s" dur="0.15s" repeatCount="indefinite"/>
+
+        </text>
+
+    </g>
+
+</svg>
